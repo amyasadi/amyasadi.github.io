@@ -1,0 +1,335 @@
+/*portfolio CSS*/
+
+
+/*-----------------------------------------*/
+/* BASIC SETUP*/
+/*-----------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color:#fff;
+    color:#383838;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+    margin:0;
+}
+
+
+
+
+/*-----------------------------------------*/
+/* REUSABLE COMPONENTS*/
+/*-----------------------------------------*/
+
+    .row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+span{
+    color:#ff1c36;
+}
+
+
+/*----------HEADINGS-----------------*/
+
+
+h1 { 
+    margin: 0;
+    font-size:400%;
+    font-weight:100;
+    margin-bottom:15px;
+    letter-spacing: 1px;
+  
+}
+
+h2 {
+    font-weight:800;
+    letter-spacing: 1px;
+    word-spacing:4px;
+    margin-bottom:20px;
+    margin-left:3px;
+    text-transform: uppercase;
+}
+
+
+
+/*----------BUTTONS-----------------*/
+
+
+.btn:link,
+.btn:visited {
+    display:inline-block;
+    text-decoration:none;
+    padding:10px 30px;
+    margin-top:40px;
+    border-radius: 150px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #ff1c36;
+    color:#fff;
+    font-weight:400;
+}
+
+
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #e21e34;
+    color:#fff;
+    font-weight:400;
+    transition: background-color 1s,
+}
+
+
+/*----------FIXES-----------------*/
+
+.no-margin {
+    margin-left: 0; 
+}
+
+
+
+/*-----------------------------------------*/
+/* HEADER*/
+/*-----------------------------------------*/
+
+header{
+    background-image:linear-gradient(rgb(255, 255, 255), rgba(165, 245, 218, 0.72)), url(img/header-img.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    margin-bottom:20px;
+}
+
+
+.logo {
+    height:70px;
+    width:auto;
+    float:left;
+    margin-top:20px;
+}
+
+.main-nav {
+    float:right;
+    margin-top:40px;
+}
+
+.main-nav li {
+    display:inline-block;
+    
+   
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color:inherit;
+    font-weight:400;
+    text-decoration:none;
+    margin-left:40px;
+    padding: 8px 0;
+    border-bottom: 2px solid transparant;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #ff1c36;
+
+}
+
+.header-text-box {
+    
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:1140px;
+}
+
+
+
+
+/*-----------------------------------------*/
+/* ABOUT*/
+/*-----------------------------------------*/
+
+
+
+.about-content {
+    background-color:#fff;
+    border-radius:20px;
+    width:50%;
+    text-align:center;
+    margin-top:-65px;
+    padding-bottom:40px;
+    margin-bottom:100px;
+    -webkit-box-shadow: 0px 0px 22px 5px rgba(181,179,181,0.5);
+    -moz-box-shadow: 0px 0px 22px 5px rgba(181,179,181,0.5);
+    box-shadow: 0px 0px 22px 5px rgba(181,179,181,0.5);
+}
+
+.about-content h2{ 
+    padding: 40px 0;
+    
+}
+
+.about-content img {
+    height:150px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.quote {
+    margin-bottom: 20px;
+}
+
+.about-info {
+    width:70%;
+    margin:auto;
+    font-size:80%;
+    text-align: justify;
+    line-height:1.5;
+    margin-bottom:20px;
+}
+
+.about-content ul li {
+    display: inline-block;
+    
+   
+}
+
+.about-content ul li a:link,
+.about-content ul li a:visited {
+     margin-left:40px;
+    padding-bottom:40px;
+     text-decoration: none;
+   
+}
+
+
+
+
+
+/*-----------------------------------------*/
+/* SKILLS*/
+/*-----------------------------------------*/
+
+
+.skills{
+    text-align:center;
+    margin-bottom:100px;
+}
+
+.skills img{
+    max-width:1140;
+    width:80%
+}
+
+
+/*-----------------------------------------*/
+/* FEATURED WORK */
+/*-----------------------------------------*/
+
+
+.work h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.work ul {
+    display:flex;
+    justify-content: space-between;
+  
+    
+}
+.work li{
+    display: inline-block;
+    margin-bottom:40px;
+    
+  
+}
+
+
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    display:inline-block;
+    width: 27%;
+    -webkit-box-shadow: 0px 0px 22px 5px rgba(181,179,181,0.5);
+    -moz-box-shadow: 0px 0px 22px 5px rgba(181,179,181,0.5);
+    box-shadow: 0px 0px 22px 5px rgba(181,179,181,0.5);
+}
+
+
+.card img {
+    width:100%;
+    margin-bottom:10px;
+}
+
+.card h4,
+.card p, 
+.card a {
+    margin-bottom:10px;
+    padding: 0 20px;
+    
+}
+    .card p {
+        font-size:80%;
+        line-height: 1.5;
+        text-align:left;
+        padding-bottom:10px;
+        
+    }
+
+.card a:link,
+.card a:visited{
+    color: #ff1c36;
+    text-decoration: none;
+    border: 2px solid #ff1c36;
+    border-radius: 3px;
+    padding-bottom: 5px;
+    margin-bottom:20px;
+   
+}
+
+.card a:hover,
+.card a:active {
+    color: #e21e34;;
+    border: 2px solid #e21e34;
+}
+
+.container{
+    margin-bottom:40px;
+    text-align: center;
+    
+}
+
+.project-row {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:40px;
+}
+
+footer {
+    height:100px;
+    width:auto;
+    background-color:#a8ffd3;
+}
+ 
+
+
+
+
+
