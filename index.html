@@ -1,163 +1,175 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Amy Carlson UX|UI</title>
-    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
-	<link rel="stylesheet" type="text/css" href="resources/css/portfolio_css.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-   
-</head>
-<body>
+<html>
 
-<!-- Desktop Home Page -->
-
-    
-<!--header with main navigation-->
-    
-<header> 
-    <div class="row">
-    
-        <a  href="index.html"><img class="logo" src="resources/css/img/logo.svg" alt="logo"></a>
-        <ul class="main-nav">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-
-    </div>
-    
-    <div class="header-text-box">
-        <h1>I'm Amy Carlson</h1>
-        <h2>I'm a <span>UX/UI Designer</span>  & <span>Developer</span></h2>
-        <a class="btn btn-full" href="#" title="View Work">View Work</a>
-    </div>
-    
-</header>
-    
-  
-<!--    about section-->
-    
-    <section class="row about-content">
+    <head>
+    <title>Amy Carlson  Portfolio</title>
         
-        <h2>About</h2>
-        <img src="resources/css/img/portfolio%20photo.jpg" title="photo of Amy">
-        <p class="quote"><em>"A quote I like."</em></p>
-        <p class="about-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </p>
-        <ul>
-            <li><a  class="no-margin" href="#" alt="resume" target="_blank">resume</a></li>
-            <li><a href="#" alt="dribble" target="_blank">dribble</a></li>
-            <li><a href="#" alt="codepen" target="_blank">codepen</a></li>
-            <li><a href="#" alt="github" target="_blank">github</a></li>
-        </ul>
-        <a class="btn btn-full" href="#" title="contact">Contact</a>
+<!--    BOOTSTRAP 4-->
+    <link type="text/css" rel="stylesheet" href="vendors/bootstrap-4.0.0/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+        
+ <!--    CUSTOM CSS-->
+    <link type="text/css" rel="stylesheet" href="resources/css/main-css.css">
+        
+<!--      FONTS  -->
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    
+    </head>
 
-    </section>
+
+    <body>
     
-    
-<!--    skills section-->
-    
+    <div class="container wrapper"> <!--    WRAPPER-->
+        
+            <div class="row">
+                
+                <div class="col-12 col-md-4"><!-- ASIDE CONTENT-->
+                    <div class="aside-info">
+                        <div class="aside-info-box">
+                    <img src="resources/img/portfolio%20photo.jpg" title="amy photo">
+                    <h1>Amy Asadi</h1>
+                        <p>UI designer influencing change with design thinking</p>
+                            <ul>
 <!--
-    <section class="row skills">
-    
-        <h2>Skills</h2>
-        <img src="resources/css/img/skills.svg">
-       
-    </section>
-    
+                                <li><a href="#" alt="resume" target="_blank"></a><i class="fas fa-file-alt"></i></li>
+                                <li><a href="#" alt="linkedin" target="_blank"></a><i class="fab fa-linkedin"></i></li>
 -->
-    <section class="row work">
-        <h2>Featured Work</h2>
-        <ul>
-            <li class="no-margin">HTML5</li>
-            <li>CSS3</li>
-            <li>XD Design</li>
-            <li>Photoshop</li>
-            <li>Invision</li>
-            <li>Illustrator</li>
-            <li>Bootstrap</li>
-            <li>Usability</li>
-            <li>UX Research</li> 
-        </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>            
         
-        
-        
-<!--FIRST PROJECT ROW-->
-        
-        
- <div class=" row project-row">       
-        <div class="card">
-            <img src="resources/css/img/potter-illustration.png" alt="project">
-            <div class="container">
-             <h4><strong>Illustration</strong></h4> 
-            <p>This is a book cover illustration I've done with Adobe Illustrator.</p> 
-            <a href="#">Explore</a>
-            </div>
-        </div> 
-
-              
-        <div class="card">
-            <img src="resources/css/img/pretend-project.jpg" alt="project">
-            <div class="container">
-             <h4><strong>UX/UI Design</strong></h4> 
-            <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo</p> 
-            <a href="#">Explore</a>
-            </div>
-        </div> 
+<!--     MAIN CONTENT      -->
+           
+                <div class="col-12 col-md-8"> <!--MAIN CONTENT-->
                 
-        <div class="card">
-            <img src="resources/css/img/smartmockups_phone.jpeg" alt="project">
-            <div class="container">
-            <h4><strong>Mobile Interface Design</strong></h4> 
-            <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo</p> 
-            <a href="#">Explore</a>
-            </div>
-        </div> 
-             
- </div>
-        
-<!--SECOND PROJECT ROW-->
-        
-<div class=" row project-row">       
-        <div class="card">
-            <img src="resources/css/img/a-temporary-matter-ilustration.png" alt="project">
-            <div class="container">
-             <h4><strong>Illustration</strong></h4> 
-            <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo</p> 
-            <a href="#">Explore</a>
-            </div>
-        </div> 
+<!--
+                    <h3>Why &amp; How I Solve Problems</h3>
+                    
+                    <div class="row">
+                    <div class=" col-12 col-md-5">
+                    <a href="#"><img class="thumbnail" src="resources/img/SVG/design-thinking-photo.svg" alt="design thinking"></a>
+                    </div>
+                    
+                    <div class="col-12 col-md-7 main-content-box">
+                    <h4>The Right Solution Begins with the Right Problem</h4>
+                    <h5>Developing a process framework for solutions</h5>
+                    <a href="process.html" alt="read more">Read More</a>
+                    </div>
+                    </div>
+-->
+                    
+                    
+                    <h3>ux | ui case studies</h3> <!---CASE STUDIES---->
+                    
+                    <div class="row">
+                    <div class=" col-12 col-md-5">
+                    <a href="mentormap.html"><img class="thumbnail" src="resources/img/mockup_mentor/mentor-map-desktop@2x_imac2013_front.png" alt="mentor-map"></a>
+                    </div>
+                    
+                    <div class="col-12 col-md-7 main-content-box">
+                    <h4>Increasing Productivity by Enhancing Personal Value</h4>
+                    <h5>Designing a cartography tool for mentors</h5>
+                    <a href="mentormap.html" alt="read more">Read More</a>
+                    </div>
+                    </div>
+                    
 
+                    <hr>
+                    
+                    <div class="row">
+                    <div class=" col-12 col-md-5">
+                    <a href="septa.html"><img class="thumbnail" src="resources/img/mockup/0_septa@2x_iphone6_spacegrey_side1.png" alt="design thinking"></a>
+                    </div>
+                    
+                    <div class="col-12 col-md-7 main-content-box">
+                    <h4>Converging Service Design with Ecosystem Thinking</h4>
+                    <h5>Redesigning SEPTA Regional Rail App for multiple red-routes</h5>
+                    <a href="septa.html" alt="read more">Read More</a>
+                    </div>
+                    </div>
+                    
+
+                 
+                    
+                    <hr>
+                    
+                     <div class="row">
+                    <div class=" col-12 col-md-5">
+                    <a href="dashboard.html"><img class="thumbnail" src="resources/img/mockup_dashboard/bos-dashboard@2x_imac2015_front.png" alt="design thinking"></a>
+                    </div>
+                    
+                    <div class="col-12 col-md-7 main-content-box">
+                    <h4>The BOS Dashboard: Visualizing Success</h4>
+                    <h5>Using data visualization for better decisions</h5>
+                    <a href="dashboard.html" alt="read more">Read More</a>
+                    </div>
+                    </div> 
+                    
+                    
+                    <hr>
+                    
+                     <div class="row">
+                    <div class=" col-12 col-md-5">
+                    <a href="weather.html"><img class="thumbnail" src="resources/img/mockup_weather/weather_channel_desktop_mockup.png" alt="design thinking"></a>
+                    </div>
+                    
+                    <div class="col-12 col-md-7 main-content-box">
+                    <h4>Finding the Job in Weather.com</h4>
+                    <h5>Rediscovering why we check the weather</h5>
+                    <a href="weather.html" alt="read more">Read More</a>
+                    </div>
+                    </div>
+<!--
+                    
+                    <h3>Custom HTML/CSS projects:</h3>
+                    <h3>Bootstrap 4 projects</h3>
+-->
+                    <h3>Illustration &amp; Photoshop</h3>
+                    
+                     <div class="row"> <!----ILLUSTRATION AND PHOTOSHOP------->
+                    <div class=" col-12 col-md-5">
+                    <a href="adobe.html"><img class="thumbnail" src="resources/img/mockup_potter/Potter_ipadair2_silver_right.png" alt="design thinking"></a>
+                    </div>
+                    
+                    <div class="col-12 col-md-7 main-content-box">
+                    <h4>A Study of Visual Metaphor and Universal Conventions</h4>
+                    <h5>A series of vector illustrations and a photo composite</h5>
+                    <a href="adobe.html" alt="read more">Read More</a>
+                    </div>
+                    </div>
+                       
+                    
+                    
+                </div>
+            
+           </div>  <!--END ROW-->
               
-        <div class="card">
-            <img src="resources/css/img/finalproject_amycarlson.jpg" alt="project">
-            <div class="container">
-             <h4><strong>Photoshop</strong></h4> 
-            <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo</p> 
-            <a href="#">Explore</a>
-            </div>
-        </div> 
-                
-        <div class="card">
-            <img src="resources/css/img/pretend-project.jpg" alt="project">
-            <div class="container">
-             <h4><strong>Home & Garden App</strong></h4> 
-            <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo</p> 
-            <a href="#">Explore</a>
-            </div>
-        </div> 
-             
- </div>
+        </div>
+    
+       
+      
         
-</section>
-    
+        
+        
+        
+<!--     FONT AWESOME CDN   -->
+        
+        
+        
+ <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>       
+        
+<!--    BOOSTAP JS SCRIPT-->
+    <script href="vendors/bootstrap-4.0.0-dist/js/bootstrap.min.js" type="text/javascript">
 
-<footer>
-    
-</footer>
-    
 
+
+
+</script>
     
-     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
-</body>
+    </body>
+
+
+
+
+
 </html>
