@@ -20,7 +20,7 @@ body{
     font-size:20px;
     color:#383838;
     text-rendering: optimizeLegibility;
-   
+/*   */
     
        
 }
@@ -30,6 +30,7 @@ body{
     margin:auto;
     max-width: 1440px;
     min-width:360px;
+    
 }
 
 
@@ -111,7 +112,7 @@ a:visited{
     border: 2px solid #4dd0e1;
     padding:10px;
     font-weight: 500;
-    margin-top:30px;
+    margin 2% 0;
 }
 
 .navigation-link:hover,
@@ -234,7 +235,7 @@ justify-content: center;
 
 
 .thumbnail-septa {
-    max-width: 60%;
+    max-width: 40%;
     height:auto;
     display:block;
     margin: 2%;
@@ -251,7 +252,7 @@ justify-content: center;
 
 /*-------------MAIN CONTENT STYLES----------------*/
 .thumbnail {
-    max-width: 300px;
+    max-width: 60%;
     height:auto;
     display:block;
     margin: 2% auto;
@@ -354,20 +355,23 @@ justify-content: center;
 
 @media only screen and (max-width: 768px) {
     
+    .wrapper {
+        margin-bottom: 5%;
+    }
+    
     .navbar-sticky-top {
         width:80%;
     }
     
    
         h1
-        p,
-         {
+        p, {
             text-align:center;
         }
    
 
    .thumbnail-septa {
-    max-width: 60%;
+    max-width: 30%;
     height:auto;
     display:block;
     margin: 2% auto;
