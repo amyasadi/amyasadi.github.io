@@ -20,6 +20,8 @@ body{
     font-size:20px;
     color:#383838;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
        
 }
 .wrapper,
@@ -101,7 +103,7 @@ a:visited{
 
 .button-box {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom:10%;
 }
 
@@ -224,7 +226,7 @@ justify-content: center;
 /*-------------PHOTOS----------------------------*/
 
 .thumbnail-feature {
-    max-width: 70%;
+    max-width: 60%;
     height:auto;
     display:block;
     margin: 5% auto 15% auto;
@@ -232,7 +234,7 @@ justify-content: center;
 
 
 .thumbnail-septa {
-    max-width: 30%;
+    max-width: 60%;
     height:auto;
     display:block;
     margin: 2%;
@@ -281,7 +283,7 @@ justify-content: center;
  .navigation-link {
     font-size: .7rem;
     font-weight: 700;
-    color: 4dd0e1;
+    color: #4dd0e1;
     text-transform: uppercase;
 }
 
@@ -300,6 +302,10 @@ justify-content: center;
     margin-bottom:20px;
 }
 
+
+.main-content-copy {
+    margin:auto;
+}
 
 /*----------------PAGNATION STYLES-------------------*/
 
@@ -347,15 +353,21 @@ justify-content: center;
 
 
 @media only screen and (max-width: 768px) {
+    
+    .navbar-sticky-top {
+        width:80%;
+    }
+    
    
-        h1,
+        h1
+        p,
          {
             text-align:center;
         }
    
 
    .thumbnail-septa {
-    max-width: 80%;
+    max-width: 60%;
     height:auto;
     display:block;
     margin: 2% auto;
@@ -369,11 +381,11 @@ justify-content: center;
     }
     
     .thumbnail-feature {
-        width:90%;
+        width:60%;
     }
     
     .thumbnail-vector {
-        width: 60%;
+        width: 50%;
         height:auto;
         margin-bottom:20px;
     }
@@ -385,7 +397,7 @@ justify-content: center;
 }
     
     .thumbnail-mentor-map {
-        width:90%;
+        width:60%;
     }
 
 }
