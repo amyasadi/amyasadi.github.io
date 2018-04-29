@@ -249,7 +249,11 @@ justify-content: center;
     display:block;
     margin: 5% auto 10% auto;
 }
+ 
 
+.thumbnail-vector {
+   border:1px solid #b2b2b2; 
+}
 
 /*-------------MAIN CONTENT STYLES----------------*/
 .thumbnail {
@@ -394,7 +398,7 @@ justify-content: center;
         width: 50%;
         height:auto;
         margin-bottom:20px;
-        border:1px solid gray;
+        border:1px solid #b2b2b2; 
     }
     
     .container-septa {
