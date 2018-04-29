@@ -145,14 +145,6 @@ justify-content: center;
     
 }
 
-.thumbnail-vector {
-    width:30%;
-    height:auto;
-    margin:auto;
-       
-    
-}
-
 
 .container-septa {
     display:flex;
@@ -251,9 +243,15 @@ justify-content: center;
 }
  
 
+
 .thumbnail-vector {
-   border:1px solid #b2b2b2; 
+    width:30%;
+    height:auto;
+    margin:auto;
+    border:1px solid #b2b2b2;    
+    
 }
+
 
 /*-------------MAIN CONTENT STYLES----------------*/
 .thumbnail {
