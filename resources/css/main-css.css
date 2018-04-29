@@ -381,6 +381,7 @@ justify-content: center;
     .vector-row {
         display:flex;
         flex-direction: column;
+       
     
        
     }
@@ -393,6 +394,7 @@ justify-content: center;
         width: 50%;
         height:auto;
         margin-bottom:20px;
+        border:1px solid gray;
     }
     
     .container-septa {
